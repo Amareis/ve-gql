@@ -1,0 +1,40 @@
+{
+  "name": "vanilla-extract-gql",
+  "description": "",
+  "version": "0.0.2",
+  "main": "src/index.ts",
+  "author": "Amareisß",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "gen": "gqless generate"
+  },
+  "private": true,
+  "dependencies": {
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@vanilla-extract/babel-plugin": "0.4.0",
+    "@vanilla-extract/css": "0.4.2",
+    "@vanilla-extract/dynamic": "0.1.0",
+    "@vanilla-extract/webpack-plugin": "0.3.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.1",
+    "polished": "^4.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.1.2",
+    "vanilla-classnames": "0.1.0",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/tailwindcss": "^2"
+  },
+  "keywords": []
+}
